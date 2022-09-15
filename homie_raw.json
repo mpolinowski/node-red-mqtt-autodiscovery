@@ -1,0 +1,782 @@
+[
+    {
+        "topic": "homie/camera_120/$homie",
+        "payload": "4.0.0"
+    },
+    {
+        "topic": "homie/camera_120/$name",
+        "payload": "IN-8408 2k+ Entrance"
+    },
+    {
+        "topic": "homie/camera_120/$state",
+        "payload": "ready"
+    },
+    {
+        "topic": "homie/camera_120/$extensions",
+        "payload": "org.homie.legacy-stats:0.1.1:[4.x],org.homie.legacy-firmware:0.1.1:[4.x]"
+    },
+    {
+        "topic": "homie/camera_120/$nodes",
+        "payload": "alarm-areas,alarm,multimedia,system,privacy"
+    },
+    {
+        "topic": "homie/camera_120/alarm/$name",
+        "payload": "Alarm"
+    },
+    {
+        "topic": "homie/camera_120/alarm/$properties",
+        "payload": "alarm-armed,alarm-email,pir,pir-link,alarm-trigger,audio-detection"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-armed",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-armed/$name",
+        "payload": "Alarm Armed"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-armed/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-armed/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-armed/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-email",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-email/$name",
+        "payload": "Alarm Email Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-email/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-email/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-email/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir/$name",
+        "payload": "PIR Motion Sensor Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir-link",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir-link/$name",
+        "payload": "Link PIR Motion Sensor with Detection Areas"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir-link/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir-link/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm/pir-link/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-trigger",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-trigger/$name",
+        "payload": "Manual Alarm Trigger"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-trigger/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-trigger/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm/alarm-trigger/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm/audio-detection",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm/audio-detection/$name",
+        "payload": "Alarm Noise Detection Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm/audio-detection/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm/audio-detection/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm/audio-detection/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/$name",
+        "payload": "Alarm Areas"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/$properties",
+        "payload": "red-enabled,red-sense,blue-enabled,blue-sense,green-enabled,green-sense,yellow-enabled,yellow-sense"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-enabled",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-enabled/$name",
+        "payload": "Area Red Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-enabled/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-enabled/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-enabled/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-enabled",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-enabled/$name",
+        "payload": "Blue Area Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-enabled/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-enabled/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-enabled/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-enabled",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-enabled/$name",
+        "payload": "Green Area Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-enabled/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-enabled/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-enabled/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-enabled",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-enabled/$name",
+        "payload": "Yellow Area Enabled"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-enabled/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-enabled/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-enabled/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-sense",
+        "payload": "70"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-sense/$name",
+        "payload": "Red Area Sensitivity"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-sense/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-sense/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/red-sense/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-sense",
+        "payload": "70"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-sense/$name",
+        "payload": "Blue Area Sensitivity"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-sense/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-sense/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/blue-sense/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-sense",
+        "payload": "70"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-sense/$name",
+        "payload": "Green Area Sensitivity"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-sense/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-sense/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/green-sense/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-sense",
+        "payload": "70"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-sense/$name",
+        "payload": "Yellow Area Sensitivity"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-sense/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-sense/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/alarm-areas/yellow-sense/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/$name",
+        "payload": "Multimedia Settings"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/$properties",
+        "payload": "audio-out,audio-in,auto-gamma,gamma,auto-denoise,denoise,flip,mirror,brightness,contrast,saturation,hue,sharpness,vibrancy,isomax"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-out",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-out/$name",
+        "payload": "Audio-Out Enabled"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-out/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-out/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-out/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-in",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-in/$name",
+        "payload": "Audio-In Enabled"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-in/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-in/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/audio-in/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-gamma",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-gamma/$name",
+        "payload": "Auto Gamma Correction Enabled"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-gamma/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-gamma/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-gamma/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/gamma",
+        "payload": "13"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/gamma/$name",
+        "payload": "Manual Gamma Correction Preset"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/gamma/$unit",
+        "payload": "Preset"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/gamma/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/gamma/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-denoise",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-denoise/$name",
+        "payload": "Auto Image De-Noise Enabled"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-denoise/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-denoise/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/auto-denoise/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/denoise",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/denoise/$name",
+        "payload": "Image De-Noise Preset"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/denoise/$unit",
+        "payload": "Preset"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/denoise/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/denoise/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/flip",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/flip/$name",
+        "payload": "Flip Image Enabled"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/flip/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/flip/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/flip/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/mirror",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/mirror/$name",
+        "payload": "Mirror Image Enabled"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/mirror/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/mirror/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/mirror/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/brightness",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/brightness/$name",
+        "payload": "Brightness Correction"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/brightness/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/brightness/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/brightness/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/contrast",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/contrast/$name",
+        "payload": "Contrast Correction"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/contrast/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/contrast/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/contrast/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/saturation",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/saturation/$name",
+        "payload": "Saturation Correction"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/saturation/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/saturation/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/saturation/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/hue",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/hue/$name",
+        "payload": "Hue Correction"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/hue/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/hue/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/hue/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/sharpness",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/sharpness/$name",
+        "payload": "Sharpness Correction"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/sharpness/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/sharpness/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/sharpness/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/vibrancy",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/vibrancy/$name",
+        "payload": "Vibrancy Correction"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/vibrancy/$unit",
+        "payload": "%"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/vibrancy/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/vibrancy/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/multimedia/isomax",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/isomax/$name",
+        "payload": "Maximum ISO Value"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/isomax/$unit",
+        "payload": "Preset"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/isomax/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/multimedia/isomax/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/system/$name",
+        "payload": "System Settings"
+    },
+    {
+        "topic": "homie/camera_120/system/$properties",
+        "payload": "reboot,autoled,autoircut"
+    },
+    {
+        "topic": "homie/camera_120/system/reboot",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/system/reboot/$name",
+        "payload": "System Reboot"
+    },
+    {
+        "topic": "homie/camera_120/system/reboot/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/system/reboot/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/system/reboot/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/system/autoled",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/system/autoled/$name",
+        "payload": "Auto IR LED Control Enabled"
+    },
+    {
+        "topic": "homie/camera_120/system/autoled/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/system/autoled/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/system/autoled/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/system/autoircut",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/system/autoircut/$name",
+        "payload": "Auto IRcut Filter Control"
+    },
+    {
+        "topic": "homie/camera_120/system/autoircut/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/system/autoircut/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/system/autoircut/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/privacy/$name",
+        "payload": "Privacy Masks Settings"
+    },
+    {
+        "topic": "homie/camera_120/privacy/$properties",
+        "payload": "mask1,mask2,mask3,mask4"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask1",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask1/$name",
+        "payload": "Privacy Mask 1 Enabled"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask1/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask1/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask1/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask2",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask2/$name",
+        "payload": "Privacy Mask 2 Enabled"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask2/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask2/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask2/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask3",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask3/$name",
+        "payload": "Privacy Mask 3 Enabled"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask3/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask3/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask3/$settable",
+        "payload": true
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask4",
+        "payload": "1"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask4/$name",
+        "payload": "Privacy Mask 4 Enabled"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask4/$unit",
+        "payload": "N/A"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask4/$datatype",
+        "payload": "integer"
+    },
+    {
+        "topic": "homie/camera_120/privacy/mask4/$settable",
+        "payload": true
+    }
+]

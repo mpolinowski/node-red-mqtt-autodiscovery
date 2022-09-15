@@ -1,0 +1,218 @@
+[
+    {
+        "topic": "homeassistant/switch/in8401_entrance/alarm_area_red/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"dead\\\"}\"},\"object_id\":\"in8401_entrance_alarm_area_red\",\"unique_id\":\"in8401_entrance_alarm_area_red\",\"name\":\"Alarm Area Red\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/red/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/areas/red/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/alarm_area_blue/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_alarm_area_blue\",\"unique_id\":\"in8401_entrance_alarm_area_blue\",\"name\":\"Alarm Area Blue\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/blue/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/areas/blue/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/alarm_area_green/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_alarm_area_green\",\"unique_id\":\"in8401_entrance_alarm_area_green\",\"name\":\"Alarm Area Green\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/green/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/areas/green/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/alarm_area_yellow/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_alarm_area_yellow\",\"unique_id\":\"in8401_entrance_alarm_area_yellow\",\"name\":\"Alarm Area Yellow\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/yellow/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/areas/yellow/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/red_area_sense/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"dead\\\"}\"},\"object_id\":\"in8401_entrance_red_area_sense\",\"unique_id\":\"in8401_entrance_red_area_sense\",\"name\":\"Alarm Area Red Sensitivity\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/red/sensitivity\",\"state_topic\":\"cameras/120/status/alarm/areas/red/sensitivity\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/blue_area_sense/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_blue_area_sense\",\"unique_id\":\"in8401_entrance_blue_area_sense\",\"name\":\"Alarm Area Blue Sensitivity\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/blue/sensitivity\",\"state_topic\":\"cameras/120/status/alarm/areas/blue/sensitivity\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/green_area_sense/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_green_area_sense\",\"unique_id\":\"in8401_entrance_green_area_sense\",\"name\":\"Alarm Area Green Sensitivity\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/green/sensitivity\",\"state_topic\":\"cameras/120/status/alarm/areas/green/sensitivity\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/yellow_area_sense/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_yellow_area_sense\",\"unique_id\":\"in8401_entrance_yellow_area_sense\",\"name\":\"Alarm Area Yellow Sensitivity\",\"icon\":\"mdi:camera-metering-matrix\",\"command_topic\":\"cameras/120/alarm/areas/yellow/sensitivity\",\"state_topic\":\"cameras/120/status/alarm/areas/yellow/sensitivity\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/alarm/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_alarm\",\"unique_id\":\"in8401_entrance_alarm\",\"name\":\"Alarm\",\"icon\":\"mdi:shield-home-outline\",\"command_topic\":\"cameras/120/alarm/actions/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/actions/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/alarm_email/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_alarm_email\",\"unique_id\":\"in8401_entrance_alarm_email\",\"name\":\"Alarm Email\",\"icon\":\"mdi:email-alert-outline\",\"command_topic\":\"cameras/120/alarm/actions/email/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/actions/email/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/pir/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_pir\",\"unique_id\":\"in8401_entrance_pir\",\"name\":\"PIR Sensor\",\"icon\":\"mdi:motion-sensor\",\"command_topic\":\"cameras/120/alarm/actions/pir/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/actions/pir/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/pir_link/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_link_pir\",\"unique_id\":\"in8401_entrance_link_pir\",\"name\":\"Link PIR Sensor\",\"icon\":\"mdi:leak-off\",\"command_topic\":\"cameras/120/alarm/actions/pir/link\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/actions/pir/link\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/button/in8401_entrance/alarm_trigger/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_alarm_trigger\",\"unique_id\":\"in8401_entrance_alarm_trigger\",\"name\":\"Alarm Trigger\",\"icon\":\"mdi:alarm-light\",\"command_topic\":\"cameras/120/alarm/pushalarm\",\"payload_press\":\"{\\\"val\\\":\\\"1\\\"}\",\"qos\":2}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/audio_detection/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_audio_detection\",\"unique_id\":\"in8401_entrance_audio_detection\",\"name\":\"Audio Detection\",\"icon\":\"mdi:waveform\",\"command_topic\":\"cameras/120/alarm/actions/audiodetection/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/alarm/actions/audiodetection/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/audio_out/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_audio_out\",\"unique_id\":\"in8401_entrance_audio_out\",\"name\":\"Audio Out\",\"icon\":\"mdi:volume-high\",\"command_topic\":\"cameras/120/multimedia/audio/out/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/audio/out/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/audio_in/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_audio_in\",\"unique_id\":\"in8401_entrance_audio_in\",\"name\":\"Audio In\",\"icon\":\"mdi:volume-high\",\"command_topic\":\"cameras/120/multimedia/audio/in/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/audio/in/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/privacy_mask1/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_privacy_mask1\",\"unique_id\":\"in8401_entrance_privacy_mask1\",\"name\":\"Privacy Mask 1\",\"icon\":\"mdi:cctv-off\",\"command_topic\":\"cameras/120/multimedia/privacy/region1/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/privacy/region1/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/privacy_mask2/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_privacy_mask2\",\"unique_id\":\"in8401_entrance_privacy_mask2\",\"name\":\"Privacy Mask 2\",\"icon\":\"mdi:cctv-off\",\"command_topic\":\"cameras/120/multimedia/privacy/region2/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/privacy/region2/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/privacy_mask3/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_privacy_mask3\",\"unique_id\":\"in8401_entrance_privacy_mask3\",\"name\":\"Privacy Mask 3\",\"icon\":\"mdi:cctv-off\",\"command_topic\":\"cameras/120/multimedia/privacy/region3/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/privacy/region3/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/privacy_mask4/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_privacy_mask4\",\"unique_id\":\"in8401_entrance_privacy_mask4\",\"name\":\"Privacy Mask 4\",\"icon\":\"mdi:cctv-off\",\"command_topic\":\"cameras/120/multimedia/privacy/region4/enable\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/privacy/region4/enable\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/auto_gamma/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_auto_gamma\",\"unique_id\":\"in8401_entrance_auto_gamma\",\"name\":\"Auto Gamma\",\"icon\":\"mdi:gamma\",\"command_topic\":\"cameras/120/multimedia/image/gamma/auto\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/image/gamma/auto\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/gamma/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_gamma\",\"unique_id\":\"in8401_entrance_gamma\",\"name\":\"Gamma\",\"icon\":\"mdi:gamma\",\"command_topic\":\"cameras/120/multimedia/image/gamma/preset\",\"state_topic\":\"cameras/120/status/multimedia/image/gamma/preset\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":18,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/auto_denoise/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_auto_denoise\",\"unique_id\":\"in8401_entrance_auto_denoise\",\"name\":\"Auto Denoise\",\"icon\":\"mdi:contrast-box\",\"command_topic\":\"cameras/120/multimedia/image/denoise/auto\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/image/denoise/auto\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/denoise/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_denoise\",\"unique_id\":\"in8401_entrance_denoise\",\"name\":\"Denoise\",\"icon\":\"mdi:contrast-box\",\"command_topic\":\"cameras/120/multimedia/image/denoise/preset\",\"state_topic\":\"cameras/120/status/multimedia/image/denoise/preset\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":15,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/flip/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_auto_flip\",\"unique_id\":\"in8401_entrance_auto_flip\",\"name\":\"Flip\",\"icon\":\"mdi:camera-flip-outline\",\"command_topic\":\"cameras/120/multimedia/image/transform/flip\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/image/transform/flip\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/switch/in8401_entrance/mirror/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_auto_mirror\",\"unique_id\":\"in8401_entrance_auto_mirror\",\"name\":\"Mirror\",\"icon\":\"mdi:camera-flip-outline\",\"command_topic\":\"cameras/120/multimedia/image/transform/mirror\",\"payload_on\":\"{\\\"val\\\":\\\"1\\\"}\",\"payload_off\":\"{\\\"val\\\":\\\"0\\\"}\",\"state_topic\":\"cameras/120/status/multimedia/image/transform/mirror\",\"state_on\":1,\"state_off\":0,\"value_template\":\"{{value_json.val}}\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/brightness/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_brightness\",\"unique_id\":\"in8401_entrance_brightness\",\"name\":\"Brightness\",\"icon\":\"mdi:brightness-6\",\"command_topic\":\"cameras/120/multimedia/image/brightness\",\"state_topic\":\"cameras/120/status/multimedia/image/brightness\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/contrast/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_contrast\",\"unique_id\":\"in8401_entrance_contrast\",\"name\":\"Contrast\",\"icon\":\"mdi:contrast-box\",\"command_topic\":\"cameras/120/multimedia/image/contrast\",\"state_topic\":\"cameras/120/status/multimedia/image/contrast\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/saturation/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_saturation\",\"unique_id\":\"in8401_entrance_saturation\",\"name\":\"Saturation\",\"icon\":\"mdi:palette-outline\",\"command_topic\":\"cameras/120/multimedia/image/saturation\",\"state_topic\":\"cameras/120/status/multimedia/image/saturation\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/hue/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_hue\",\"unique_id\":\"in8401_entrance_hue\",\"name\":\"Hue\",\"icon\":\"mdi:palette-outline\",\"command_topic\":\"cameras/120/multimedia/image/hue\",\"state_topic\":\"cameras/120/status/multimedia/image/hue\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":360,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/sharpness/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_sharpness\",\"unique_id\":\"in8401_entrance_sharpness\",\"name\":\"Sharpness\",\"icon\":\"mdi:shark-fin-outline\",\"command_topic\":\"cameras/120/multimedia/image/sharpness\",\"state_topic\":\"cameras/120/status/multimedia/image/sharpness\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":100,\"step\":1,\"unit_of_measurement\":\"%\",\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/vibrancy/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_vibrancy\",\"unique_id\":\"in8401_entrance_vibrancy\",\"name\":\"Vibrancy\",\"icon\":\"mdi:palette-outline\",\"command_topic\":\"cameras/120/multimedia/image/vibrancy/value\",\"state_topic\":\"cameras/120/status/multimedia/image/vibrancy/value\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":255,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/isomax/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_isomax\",\"unique_id\":\"in8401_entrance_isomax\",\"name\":\"Max ISO\",\"icon\":\"mdi:brightness-6\",\"command_topic\":\"cameras/120/multimedia/image/isomax\",\"state_topic\":\"cameras/120/status/multimedia/image/isomax\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":1,\"max\":32,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/autoled/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_autoled\",\"unique_id\":\"in8401_entrance_autoled\",\"name\":\"Auto IR LEDs\",\"icon\":\"mdi:lightbulb-night-outline\",\"command_topic\":\"cameras/120/features/nightvision/autoled\",\"state_topic\":\"cameras/120/status/features/nightvision/autoled\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":2,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/number/in8401_entrance/autoircut/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_autoircut\",\"unique_id\":\"in8401_entrance_autoircut\",\"name\":\"Auto IRcut\",\"icon\":\"mdi:lightbulb-night-outline\",\"command_topic\":\"cameras/120/features/nightvision/autoircut\",\"state_topic\":\"cameras/120/status/features/nightvision/autoircut\",\"value_template\":\"{{value_json.val}}\",\"command_template\":\"{\\\"val\\\":\\\"{{ value}}\\\"}\",\"min\":0,\"max\":2,\"step\":1,\"qos\":1}"
+        }
+    },
+    {
+        "topic": "homeassistant/button/in8401_entrance/reboot/config",
+        "default": {
+            "mqtt_payload": "{\"device\":{\"identifiers\":\"in8401_entrance\",\"manufacturer\":\"INSTAR Deutschland GmbH\",\"model\":\"INSTAR 2k+ IN-8401 WLAN\",\"name\":\"IN-8401 2k+ Garden\",\"configuration_url\":\"http://192.168.2.115:80\"},\"availability\":{\"topic\":\"cameras/120/status/testament\",\"payload_available\":\"{\\\"val\\\":\\\"alive\\\"}\",\"payload_not_available\":\"{\\\"val\\\":\\\"alive\\\"}\"},\"object_id\":\"in8401_entrance_reboot\",\"unique_id\":\"in8401_entrance_reboot\",\"name\":\"Reboot\",\"icon\":\"mdi:cog-refresh-outline\",\"command_topic\":\"system/reboot/now\",\"payload_press\":\"{\\\"val\\\":\\\"1\\\"}\",\"qos\":2}"
+        }
+    }
+]
